@@ -13,6 +13,8 @@
             <label for="E-mail">Email:</label>
             <input type="email" name="E-mail" id="E-mail" required placeholder="Digite seu E-mail">
             <br>
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" name="data_nascimento" id="data_nascimento" required><br>
             <Label for="Senha">Senha:</Label>
             <input type="password" name="Senha" id="Senha" required placeholder="Digite sua senha">
             <br>
@@ -29,11 +31,11 @@
             </select>
             <fieldset>
                 <legend>Estado Civil</legend>
-                <input type="radio" id="estados" name="estado_civil" required>
+                <input type="radio" id="estados" name="estado_civil" value="Solteiro(a)" required>
                 <label for="estados"> Solteiro(a) </label>
-                <input type="radio" id="estadoc" name="estado_civil" required>
+                <input type="radio" id="estadoc" name="estado_civil" value="Casado(a)" required>
                 <label for="estadoc">Casado(a)</label>
-                <input type="radio" id="estadod" name="estado_civil" required>
+                <input type="radio" id="estadod" name="estado_civil"  value="Divorciado(a)" required>
                 <label for="estadod">Divorciado(a)</label>
             </fieldset>
             <label for="description"> Escreva abaixo uma breve descrição sobre você</label><br>
