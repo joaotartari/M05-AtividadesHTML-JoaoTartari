@@ -1,0 +1,30 @@
+Nesta lista de exercícios, você terá a oportunidade de criar um formulário HTML detalhado. Siga as instruções cuidadosamente para criar um formulário funcional e bem estruturado.
+
+Instruções:
+
+Título: Comece criando um documento HTML válido com uma estrutura básica, incluindo a declaração , as tags , e . Defina um título apropriado para a página.
+
+Cabeçalho: No <body>, crie um cabeçalho (<h1>) que descreva o propósito do formulário (por exemplo, "Formulário de Contato").
+
+Formulário: Abaixo do cabeçalho, inicie a criação do formulário. Use a tag <form> para envolver todo o formulário.
+
+Campos de Entrada de Dados:
+a. Crie um campo de entrada de texto para o nome do usuário. Inclua um <label> associado a este campo.
+b. Crie um campo de entrada de e-mail para o endereço de e-mail do usuário. Inclua um <label> associado a este campo e defina o atributo type como "email". c. Crie um campo de senha para a senha do usuário. Inclua um <label> associado a este campo e defina o atributo type como "password".
+d. Adicione um campo de seleção de gênero. Use a tag <select> com as opções "Masculino" e "Feminino". Inclua um <label> associado a este campo.
+
+Campos de Opção:
+a. Crie uma pergunta de múltipla escolha com três opções. Use a tag <fieldset> para agrupar as opções e inclua um <legend> que descreva a pergunta.
+b. Crie três opções de resposta usando <input type="radio">. Certifique-se de vincular cada opção a uma descrição usando <label>. Todas as opções devem ter o mesmo atributo name.
+
+Área de Texto: Crie uma área de texto (<textarea>) para que os usuários possam escrever um comentário ou mensagem adicional. Inclua um <label> associado a este campo.
+
+Botões: a. Adicione um botão de envio (<input type="submit">) para enviar o formulário.
+b. Adicione um botão de redefinição (<input type="reset">) para limpar o formulário.
+
+Dica de Usabilidade: Use o atributo placeholder para fornecer dicas sobre o que deve ser inserido em cada campo de entrada.
+
+Validação: Utilize o atributo required em pelo menos um dos campos para indicar que é obrigatório preenchê-lo.
+
+(Extra) Pesquise diferentes valores do atributo type no elemento <input> e os utilize. Comece criando campos de entrada específicos para números, faixa de números e URLs, utilizando os tipos apropriados.
+

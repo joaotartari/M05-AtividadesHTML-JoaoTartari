@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário de informações de contato</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Formulário de Contato</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required  autofocus placeholder="Digite seu nome">
+            <br/>
+            <label for="E-mail">Email:</label>
+            <input type="email" name="E-mail" id="E-mail" required placeholder="Digite seu E-mail">
+            <br>
+            <Label for="Senha">Senha:</Label>
+            <input type="password" name="Senha" id="Senha" required placeholder="Digite sua senha">
+            <br>
+            <label for="Genêro">
+                Selecione seu Genêro:
+            </label>
+            <select id="Genêro" nome="Genêro" >
+                <option value="M">
+                    Masculino
+                </option>
+                <option value="F">
+                    Feminino
+                </option>
+            </select>
+            <fieldset>
+                <legend>Estado Civil</legend>
+                <input type="radio" id="estados" name="estado_civil" required>
+                <label for="estados"> Solteiro(a) </label>
+                <input type="radio" id="estadoc" name="estado_civil" required>
+                <label for="estadoc">Casado(a)</label>
+                <input type="radio" id="estadod" name="estado_civil" required>
+                <label for="estadod">Divorciado(a)</label>
+            </fieldset>
+            <label for="description"> Escreva abaixo uma breve descrição sobre você</label><br>
+            <textarea id="description" name="descrição" cols="30" rows="10"></textarea><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </body>
+</html>
